@@ -4,7 +4,8 @@ MQTT-TOPN: display MQTT topic statistics
 ## Overview
 
 This is a simple MQTT subscriber client in Go to display topic performance statistics
-with TopN most "chatty" topics.
+with TopN most "chatty" topics. The idea is similar to the Unix "top" process statistics utility
+detailed at https://www.geeksforgeeks.org/top-command-in-linux-with-examples/ .
 
 It is the command-line interface equivalent of https://github.com/gambitcomminc/mqtt-stats
 implemented with Go ncurses https://godoc.org/github.com/gbin/goncurses
