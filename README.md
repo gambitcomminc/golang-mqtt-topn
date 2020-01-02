@@ -10,6 +10,8 @@ detailed at https://www.geeksforgeeks.org/top-command-in-linux-with-examples/ .
 It is the command-line interface equivalent of https://github.com/gambitcomminc/mqtt-stats
 implemented with Go ncurses https://godoc.org/github.com/gbin/goncurses
 
+This utility allows you to analyze quantitatively the published topics underneath a wildcard topic and answer such questions as "which topic generates the most messages?" and "which topic generates the most traffic?". You can sort by messages/second to get the most active topics.
+
 ## Installation / Requirements
 
 * To install this program, you need to install Go and set your Go workspace first.
